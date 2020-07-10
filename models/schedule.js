@@ -18,11 +18,11 @@ const Schedule = loader.database.define(
       type: Sequelize.TEXT,
       allowNull: false
     },
-    createBy: {
+    createdBy: {
       type: Sequelize.INTEGER,
       allowNull: false
     },
-    updateAt: {
+    updatedAt: {
       type: Sequelize.DATE,
       allowNull: false
     }

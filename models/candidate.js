@@ -11,7 +11,7 @@ const Candidate = loader.database.define(
       autoIncrement: true,
       allowNull: false
     },
-    canidateName: {
+    candidateName: {
       type: Sequelize.STRING,
       allowNull: false
     },
